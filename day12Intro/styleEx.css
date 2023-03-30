@@ -1,0 +1,27 @@
+div,h1,p{
+    background-color: green;
+    color: white;
+    border: 2px solid red;
+    font-size: large;
+    font-style: italic;
+    
+}
+.yello{
+    background-color: aqua;
+    color: white;
+    border: 2px solid blue;
+    font-style: italic;
+}
+#mydiv{
+    background-color: yellow;
+    color: pink;
+    border: 3px solid black;
+    width: 33%;
+    height: 55%;
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:red;
+}

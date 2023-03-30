@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+button{
+    width: 100px;
+    height:50px;
+    background-color: aqua;
+}
+.button1{
+    transition-property:width;
+    transition-duration: 2s;
+}
+.button1:hover{
+
+    background-color: green;
+    cursor: pointer;
+    width: 500px;
+
+}

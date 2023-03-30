@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: red;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+
+}
+.aside1{
+background-color: yellow;
+padding: 15px;
+width: 30%;
+}
+.aside2{
+    background-color:purple;
+padding: 15px;
+width: 30%;
+}
+section{
+    background-color: skyblue;
+    padding: 15px;
+}
+footer{
+    background-color: lightgreen;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}

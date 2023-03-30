@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    animation-name: bgcolorchange;
+    animation-duration: 6s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+}
+/* @keyframes bgcolorchange{
+    from{
+        width: 100px;
+        background-color: red;
+    } to {
+        width: 800px;
+        background-color: green;
+    }
+} */
+@keyframes bgcolorchange{
+    0%{
+        width: 100px;
+        background-color: red;
+    }
+    50%{
+        width: 300px;
+        background-color: yellow;
+    }
+    100%{
+        width: 900px;
+        background-color: blue;
+    }
+}
+.container:hover{
+    animation-play-state: paused;
+}
